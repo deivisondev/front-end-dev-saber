@@ -1,0 +1,43 @@
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #424769;
+  padding: 0.1em 1em;
+  height: 3rem;
+}
+
+#nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+  margin: auto;
+}
+
+#nav-links li {
+  margin-right: 1em;
+}
+
+#nav-links span {
+  cursor: pointer;
+}
+
+#nav-links svg {
+  font-size: 1.5rem;
+}
+
+#nav-icon {
+    height: 2rem;
+    margin: 0 1rem;
+}
+
+#nav-button-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%; 
+    border: none;
+}
