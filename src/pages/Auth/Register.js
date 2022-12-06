@@ -56,7 +56,11 @@ const Register = () => {
             onChange={(e) => setPassword(e.target.value)}
             value={password || ""}
           />
-          <input id="auth-submit" type="submit" value="Cadastrar" />
+          {!loading ? (
+            <input id="auth-submit" type="submit" value="Cadastrar" />
+          ) : (
+            <input id="auth-submit" type="submit" value="Aguarde..." disabled />
+          )}
         </form>
         <Link to="/login">Já estou cadastrado</Link>
       </div>
