@@ -1,0 +1,31 @@
+.register-course-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.register-course-container h1 {
+    margin: 5% auto;
+}
+
+.register-course-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.register-course-form input {
+    height: 1.5rem;
+    width: 20rem;
+    border-radius: 1rem;
+    border: none;
+    margin: 0.3rem auto;
+    padding: 0.5rem;
+    background-color: #424769;
+    color: #FFFFFF;
+}
+
+.register-course-form input::placeholder {
+    margin-left: 1rem;
+    color: #676F9D;
+}

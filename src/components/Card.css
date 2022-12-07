@@ -1,0 +1,14 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 500px;
+  min-height: 400px;
+  padding: 1rem;
+  background-color: #2d3250;
+  border-radius: 1rem;
+}
+
+.card-video-box {
+  margin: 1em;
+}

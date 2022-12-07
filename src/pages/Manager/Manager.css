@@ -1,0 +1,57 @@
+.manager-container h1 {
+    text-align: center;
+    margin: 5% 0;
+}
+
+.manager-table {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    background-color: #2D3250;
+    border-radius: 1rem;
+}
+
+.manager-table-row, .manager-table-header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.manager-table-header button {
+    padding: 0 1em;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #161E31;
+    background-color: #F9B17A;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.manager-table-header button:hover {
+    color: #676F9D;
+}
+
+.manager-table-header button:active {
+    color: #FFFFFF;
+}
+
+.manager-table-row button {
+    background: none;
+    border: none;
+}
+
+.manager-table-row div {
+    display: flex;
+    gap: 1em;
+}
+
+#manager-table-primary-color {
+    background-color: #424769;
+}
+
+#manager-table-secondary-color {
+    background-color: #2D3250;
+}
